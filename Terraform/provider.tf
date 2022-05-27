@@ -9,7 +9,7 @@ terraform {
     aws = {
       source = "hashicorp/aws"
       version = ">= 3.70.0, >= 4.8.0" 
-      region = "ap-south-1"
+      region = "eu-west-3"
     }
     tls = {
       source = "hashicorp/tls"
