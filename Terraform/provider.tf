@@ -8,7 +8,10 @@ terraform {
   required_providers {
     aws = {
       source = "hashicorp/aws"
-      version = ">= 3.70.0, >= 4.8.0"   
+      version = ">= 3.70.0, >= 4.8.0" 
+      region = "eu-west-3"
+     bucket = "bucket-jenkinspipeline"
+     key    = "magicbox-platform/dev/terraform.tfstate"
     }
     tls = {
       source = "hashicorp/tls"
