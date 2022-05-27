@@ -1,6 +1,6 @@
- #provider "aws" {
-  # region = "eu-west-3"
- #}
+ provider "aws" {
+   region = "eu-west-3"
+ }
 
 terraform {
   required_version = ">= 1.1.2"
